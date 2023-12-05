@@ -35,6 +35,7 @@ ggplot(penguins_raw, aes(x = Island, y = `Body Mass (g)`, fill = Species)) +
        x = "Island", y = "Mean Body Mass") + scale_fill_manual(values = c("Adelie Penguin (Pygoscelis adeliae)" = "red", "Chinstrap penguin (Pygoscelis antarctica)" = "green", "Gentoo penguin (Pygoscelis papua)" = "blue")) + theme_minimal()
 ```
 
+
 ```{r}
 write.csv(penguins_raw, "data/penguins_raw.csv") 
 # This is the step to load in the data. It is then converted into a csv file and saved in my R project directory so that anyone can access it which makes it reproducible. This is because it is not saved directly to my computer. penguins_raw is a file within the Palmer penguins data set, which is why I can just use the head function on it. I did this so that I can see what is within the data set, so I can begin considering my hypotheses and how this will shape my graph as it will be a visual representation to answer my question. 
@@ -185,6 +186,7 @@ speciesscatter <- function(massanddepth) {ggplot(massanddepth, aes(x = body_mass
 }
 speciesscatter(massanddepth)
 ```
+![CAPTION](https://github.com/1065094/reprodresearch/blob/5642aba8239518f9871aa1848ae9e78fe541f158/facetwrapped.pdf)
 
 ```{r}
 #Beginning a statistical test.
