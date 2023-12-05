@@ -57,7 +57,7 @@ penguinscols
 ```
 
 ```{r}
-source("functions/RRassignmentcleaningfunctions.R")
+# source("functions/RRassignmentcleaningfunctions.R")
 # This line of code will retrieve my functions I need to clean the data.
 ```
 ```{r}
@@ -174,7 +174,7 @@ scatterpenguins
 ```{r}
 ## Figure 1B
 # However, I later realised this was not completely effective, so I made use of the facet_wrap() function and fit a smoothing line to understand the general trend better and allow a clearer comparison. So although it is a similar scatter plot, it is arguably clearer. Since it is exploratory, I chose not to relabel the lines.
-source("functions/RRassignmentplottingfunctions.R")
+# source("functions/RRassignmentplottingfunctions.R")
 speciesscatter <- function(massanddepth) {ggplot(massanddepth, aes(x = body_mass_g, y = culmen_depth_mm, colour = Species)) + 
   geom_point() + 
   geom_smooth(method = lm, formula = y ~ x) + 
