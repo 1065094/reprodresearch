@@ -99,7 +99,7 @@ View(penguins_cleanest)
 # I loaded in the R script which has the functions within it to help clean the data.
 
 # I could then load this clean data into the same directory so it can accessible for all.
-write.csv(penguins_cleanest, "data/penguins_cleanest.csv")
+# write.csv(penguins_cleanest, "data/penguins_cleanest.csv")
 
 # This step is used to subset the data to just get the relevant columns I am working with.
 massanddepth <- penguins_cleanest[, c("body_mass_g", "culmen_depth_mm", "Species")]
