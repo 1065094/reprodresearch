@@ -1,10 +1,11 @@
 # reprodresearch
+PLEASE CLICK THIS LINK TO SEE ALL CODE AND FIGURES!
 https://rpubs.com/a1065094/1125146
 Attached is the link to access my HTML document as a whole as it is too large for GitHub to process.
 
 
 ## Question 3
-C) 
+C) Reflect on your experience running their code. (300-500 words)
 - <div>What elements of your partner's code helped you to understand their data pipeline?</div> 
 I was particularly impressed with the cleaning section of the code since the student made use of new inclusions within the code learnt from the session to help improve the cleaning process. I also enjoyed the presence of interactive plots which made me feel like I was getting the necessary information from the graph as a whole since it was easy to see the overall distribution, but also specific detail was available if needed. This helped me then see how they were answering their biological question from the code which is great! I also think an appropriate test was chosen for the type of variables that they were using (ANOVA). I was pleasantly surprised to see a post-hoc test being conducted too! (Tukey HSD).
 
@@ -16,4 +17,10 @@ One suggestion would be to either justify or remove the density function on the 
 
 - <div>If need to alter, would be easy or not?</div>
 I think it would be easy to alter the figures of my partner since there are comments on almost each line or before the code is conducted to give sufficient context. The code is also quite clear and not complex, so it would be straightforward for me! I particularly liked the way a comment clarified how alpha must be altered to have differing transparency so that we can avoid over plotting. 
+
+D) Reflect on your own code based on your experience with your partner's code and their review of yours. (300-500 words)
+Based on hers: 
+Based on my partner's code, I believe my code would benefit from some additional restructuring to make sure it is clear where each section starts and ends 
+Reflection of her review:
+She is right to mention that I should justify the use of the ANOVA through the variables
 
